@@ -33,6 +33,7 @@
 	position: absolute;
 	bottom: -2px;
 	left: 0;
+	box-sizing: initial;
 }
 
 .btn-theme2:active span, .btn-theme2:focus span {

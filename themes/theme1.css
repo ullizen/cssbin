@@ -2,6 +2,23 @@
 	background: #3f4a9b;
 	color: white;
 	font-family: 'Share Tech Mono', monospace;
+
+	background:
+	linear-gradient(
+		cyan,
+		transparent
+	),
+	linear-gradient(
+		-45deg,
+		magenta,
+		transparent
+	),
+	linear-gradient(
+		45deg,
+		yellow,
+		transparent
+	);
+	background-blend-mode: multiply;
 }
 
 .btn-theme1 {
@@ -33,6 +50,7 @@
 	position: absolute;
 	bottom: -2px;
 	left: 0;
+	box-sizing: initial;
 }
 
 .btn-theme1:active span, .btn-theme1:focus span {

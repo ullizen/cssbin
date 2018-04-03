@@ -1,6 +1,6 @@
-/** {
+* {
 	box-sizing: border-box;
-}*/
+}
 
 body {
 	font-family: 'Share Tech Mono', monospace;
@@ -31,15 +31,37 @@ input {
 }
 
 .header {
-	padding: 20px;
+	padding: 10px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header button {
+	font-size: 16px;
+	color: black;
+	border-color: black;
+}
+
+.logo-icon {
+	transform: rotate(90deg);
+	vertical-align: bottom;
+}
+
+.main-container {
+	display: flex;
+	flex-flow: column wrap;
 }
 
 .theme-container {
+	flex: 1 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-direction: column;
 	padding: 20px;
+	overflow: hidden;
 }
 
 .item {
@@ -49,5 +71,10 @@ input {
 pre {
 	border: 2px solid white;
 	border-radius: 2px;
+	padding: 20px;
+}
+
+.footer {
+	text-align: center;
 	padding: 20px;
 }
