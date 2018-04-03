@@ -1,0 +1,78 @@
+.theme2 {
+	background: white;
+	color: #3f4a9b;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.btn-theme2 {
+	color: #3f4a9b;
+	border: 2px solid #3f4a9b;
+	background: none;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 20px;
+	font-family: inherit;
+	font-size: inherit;
+	border-radius: 2px;
+}
+
+.btn-theme2:active, .btn-theme2:focus {
+	margin-top: 10px;
+	outline: none;
+	padding-bottom: 10px;
+
+}
+
+.btn-theme2 span {
+	border-top: 2px solid #3f4a9b;
+	width: 100%;
+	height: 10px;
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+}
+
+.btn-theme2:active span, .btn-theme2:focus span {
+	display: none;
+}
+
+.btn2-theme2 {
+	color: #3f4a9b;
+	border: 2px solid #3f4a9b;
+	background: none;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	position: relative;
+	font-family: inherit;
+	font-size: inherit;
+	border-radius: 2px;
+	border-bottom: 12px solid;
+	padding-bottom: 10px;
+}
+
+.btn2-theme2:active, .btn2-theme2:focus {
+	margin-top: 10px;
+	outline: none;
+	padding-bottom: 10px;
+	border-bottom: 2px solid;
+}
+
+.btn3-theme2 {
+	background: none;
+	border: 2px solid #3f4a9b;
+	color: #3f4a9b;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.btn3-theme2:active, .btn3-theme2:focus {
+	border-top: 10px solid;
+	margin-top: 0px;
+	outline: none;
+	padding-bottom: 2px;
+}

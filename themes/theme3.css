@@ -1,0 +1,24 @@
+.theme3 {
+	background: #ddd;
+}
+
+.btn-theme3 {
+	padding: 10px 20px;
+	background: #ddd;
+	color: black;
+	border: 2px solid white;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn-theme3:active, .btn-theme3:focus {
+	margin-top: 0;
+	padding-top: 12px;
+	padding-bottom: 8px;
+	border-color: black;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	outline: none;
+}
